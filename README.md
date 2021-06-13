@@ -11,6 +11,7 @@ It is a js class which helps to get current date and time ; also updates it accu
     <span id="hours"></span>  :
     <span id="minutes"></span> :
     <span id="seconds"></span>
+    <span id="type"></span>
     <br>
     <br>
     <span id="date"></span> -
@@ -34,6 +35,7 @@ It is a js class which helps to get current date and time ; also updates it accu
         document.querySelector('#hours').innerText = time.hours
         document.querySelector('#minutes').innerText = time.minutes
         document.querySelector('#seconds').innerText = time.seconds
+        document.querySelector('#type').innerText = time.type
 
         document.querySelector('#day').innerText = date.day
         document.querySelector('#date').innerText = date.date
