@@ -26,6 +26,7 @@ It is a js class which helps to get current date and time ; also updates it accu
 
 3. Instantiate the class and some parameters 
 
+```
     const time = new DynamicDT({
       format: 12,
       update: function (time , date) {
@@ -41,6 +42,8 @@ It is a js class which helps to get current date and time ; also updates it accu
         document.querySelector('#year').innerText = date.year;
       }
     });
+
+```
 
 ## Parameters 
 
